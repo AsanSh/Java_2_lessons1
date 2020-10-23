@@ -6,6 +6,17 @@ public class Technics {
     private String brandName;
     private String spec;
 
+    public Technics(Condition condition, int price, String brandName, String spec) {
+        this.condition = condition;
+        this.price = price;
+        this.brandName = brandName;
+        this.spec = spec;
+    }
+
+    public Technics(long price) {
+
+    }
+
     public Condition getCondition() {
         return condition;
     }
